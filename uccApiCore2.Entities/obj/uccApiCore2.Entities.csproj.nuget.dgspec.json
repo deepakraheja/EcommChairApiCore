@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj": {}
+    "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj": {
+    "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj",
+        "projectUniqueName": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj",
         "projectName": "uccApiCore2.Entities",
-        "projectPath": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj",
+        "projectPath": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj",
         "packagesPath": "C:\\Users\\deepak raheja\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Entities\\obj\\",
+        "outputPath": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

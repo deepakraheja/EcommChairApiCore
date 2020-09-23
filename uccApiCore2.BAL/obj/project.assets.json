@@ -5188,11 +5188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.BAL\\uccApiCore2.BAL.csproj",
+      "projectUniqueName": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.BAL\\uccApiCore2.BAL.csproj",
       "projectName": "uccApiCore2.BAL",
-      "projectPath": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.BAL\\uccApiCore2.BAL.csproj",
+      "projectPath": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.BAL\\uccApiCore2.BAL.csproj",
       "packagesPath": "C:\\Users\\deepak raheja\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.BAL\\obj\\",
+      "outputPath": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.BAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5211,11 +5211,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj": {
-              "projectPath": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj"
+            "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj": {
+              "projectPath": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj"
             },
-            "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Repository\\uccApiCore2.Repository.csproj": {
-              "projectPath": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Repository\\uccApiCore2.Repository.csproj"
+            "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Repository\\uccApiCore2.Repository.csproj": {
+              "projectPath": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Repository\\uccApiCore2.Repository.csproj"
             }
           }
         }

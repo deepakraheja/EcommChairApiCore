@@ -62,3 +62,11 @@ C:\Project\Mohit\EcommApiCore\mailinblue\obj\Debug\mailinblue.csproj.CoreCompile
 C:\Project\Mohit\EcommApiCore\mailinblue\obj\Debug\mailinblue.csproj.CopyComplete
 C:\Project\Mohit\EcommApiCore\mailinblue\obj\Debug\mailinblue.dll
 C:\Project\Mohit\EcommApiCore\mailinblue\obj\Debug\mailinblue.pdb
+C:\Project\KUNAL\EcommChairApiCore\mailinblue\bin\Debug\mailinblue.dll
+C:\Project\KUNAL\EcommChairApiCore\mailinblue\bin\Debug\mailinblue.pdb
+C:\Project\KUNAL\EcommChairApiCore\mailinblue\bin\Debug\Newtonsoft.Json.dll
+C:\Project\KUNAL\EcommChairApiCore\mailinblue\obj\Debug\mailinblue.csprojAssemblyReference.cache
+C:\Project\KUNAL\EcommChairApiCore\mailinblue\obj\Debug\mailinblue.csproj.CoreCompileInputs.cache
+C:\Project\KUNAL\EcommChairApiCore\mailinblue\obj\Debug\mailinblue.csproj.CopyComplete
+C:\Project\KUNAL\EcommChairApiCore\mailinblue\obj\Debug\mailinblue.dll
+C:\Project\KUNAL\EcommChairApiCore\mailinblue\obj\Debug\mailinblue.pdb

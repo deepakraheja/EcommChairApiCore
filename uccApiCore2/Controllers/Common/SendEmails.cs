@@ -423,7 +423,8 @@ namespace uccApiCore2.Controllers.Common
             string strBody = GetMailBody(emailParameters);
             //****************Calling the Send Mail Function *******************************
             MailContent objMailContent = new MailContent() { From = "esales@vikramcreations.com", toEmailaddress = emailParameters.email, displayName = "Vikram Creations Private Limited", subject = emailParameters.Subject, emailBody = strBody, strAttachment = strAttachment, EventData = EventData };
-            SendEmailInBackgroundThread(objMailContent);
+            
+            //SendEmailInBackgroundThread(objMailContent);
         }
 
         public void SendEmailInBackgroundThread(MailContent objMailContent)
@@ -438,60 +439,7 @@ namespace uccApiCore2.Controllers.Common
             //SendMailBySendBlue(objMailContent);
         }
 
-        //public static void SendMailBySendBlue(MailContent objMailContent)
-        //{
-        //    // Configure API key authorization: api-key
-        //    //Configuration.Default.ApiKey.Add("api-key", "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");
-        //    // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-        //    // Configuration.Default.ApiKeyPrefix.Add("api-key", "Bearer");
-        //    // Configure API key authorization: partner-key
-        //    //Configuration.Default.ApiKey.Add("partner-key", "YOUR_API_KEY");
-        //    // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-        //    // Configuration.Default.ApiKeyPrefix.Add("partner-key", "Bearer");
-
-        //    //var apiInstance = new AccountApi();
-        //    System.Net.Mime.ContentType typeHTML = new System.Net.Mime.ContentType("text/html");
-        //    AlternateView viewHTML = AlternateView.CreateAlternateViewFromString(objMailContent.emailBody, typeHTML);
-        //    viewHTML.TransferEncoding = System.Net.Mime.TransferEncoding.SevenBit;
-        //    //mailMessage.AlternateViews.Add(viewHTML);
-
-        //    try
-        //    {
-        //        API sendinBlue = new mailinblue.API("sHnhr4w0fTbga7c3"); //add your api key here 
-
-        //        Dictionary<string, Object> data = new Dictionary<string, Object>();
-        //        //Dictionary<string, string> to = new Dictionary<string, string>();
-        //        //to.Add(objMailContent.toEmailaddress, "");
-
-        //        //to.Add("deepak12345@mailinator.com", "to whom!");
-        //        List<string> from_name = new List<string>();
-        //        from_name.Add("esales@vikramcreations.com");
-
-        //        //from_name.Add("from email!");
-        //        //List<string> attachment = new List<string>();
-        //        //attachment.Add("https://domain.com/path-to-file/filename1.pdf");
-        //        //attachment.Add("https://domain.com/path-to-file/filename2.jpg");
-
-        //        data.Add("to", objMailContent.toEmailaddress);
-        //        data.Add("from", objMailContent.From);
-        //        data.Add("subject", objMailContent.subject);
-        //        data.Add("html", objMailContent.emailBody);
-        //        //data.Add("attachment", attachment);
-
-        //        Object sendEmail = sendinBlue.send_email(data);
-        //        string InnerHtml = sendEmail.ToString();
-
-        //        // Get your account information, plan and credits details
-        //        //GetAccount result = apiInstance.GetAccount();
-
-        //        //Debug.WriteLine(result);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        Debug.Print("Exception when calling AccountApi.GetAccount: " + e.Message);
-        //    }
-
-        //}
+        
         public static void SendAttachment(Object objMail, string UserName)
         {
             MailContent objMailContent = (MailContent)objMail;
@@ -668,50 +616,6 @@ namespace uccApiCore2.Controllers.Common
                 throw ex;
             }*/
         }
-
-
-
-        //public static void SendAttachment(Object objMail, string UserName)
-        //{
-        //    MailContent objMC = (MailContent)objMail;
-        //    try
-        //    {
-
-        //        SmtpClient smtpClient = new SmtpClient();
-        //        MailMessage message = new MailMessage();
-        //        bool EnableSsl = true;
-        //        bool flag = true;
-        //        string strSub = objMC.subject;
-        //        string strBody = objMC.emailBody;
-        //        MailAddress FromAddress = new MailAddress(fromEmailID.ToString(), objMC.displayName);
-
-        //        smtpClient.EnableSsl = EnableSsl;//Convert.ToBoolean(EnableSsl);
-        //        smtpClient.Host = mailServer.ToString();
-        //        message.From = FromAddress;
-        //        message.To.Add(objMC.toEmailaddress);
-        //        //message.CC.Add(strCc);
-        //        //message.Bcc.Add(strBcc);
-        //        message.Subject = strSub;
-        //        message.Body = strBody;
-        //        message.IsBodyHtml = true;
-        //        if (flag)
-        //        {
-        //            NetworkCredential oCredential = new NetworkCredential(userId.ToString(), password.ToString());
-        //            smtpClient.UseDefaultCredentials = false;
-        //            smtpClient.Credentials = oCredential;
-        //        }
-        //        else
-        //        {
-        //            smtpClient.UseDefaultCredentials = true;
-
-        //        }
-        //        smtpClient.Send(message);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw ex;
-        //    }
-        //}
 
     }
 

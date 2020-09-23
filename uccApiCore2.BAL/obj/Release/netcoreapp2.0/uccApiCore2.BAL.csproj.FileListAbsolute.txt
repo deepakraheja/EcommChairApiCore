@@ -12,3 +12,17 @@ C:\Project\Mohit\EcommApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCo
 C:\Project\Mohit\EcommApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.csproj.CopyComplete
 C:\Project\Mohit\EcommApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.dll
 C:\Project\Mohit\EcommApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.pdb
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\bin\Release\netcoreapp2.0\uccApiCore2.BAL.deps.json
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\bin\Release\netcoreapp2.0\uccApiCore2.BAL.dll
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\bin\Release\netcoreapp2.0\uccApiCore2.BAL.pdb
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\bin\Release\netcoreapp2.0\uccApiCore2.Entities.dll
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\bin\Release\netcoreapp2.0\uccApiCore2.Repository.dll
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\bin\Release\netcoreapp2.0\uccApiCore2.Entities.pdb
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\bin\Release\netcoreapp2.0\uccApiCore2.Repository.pdb
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.csprojAssemblyReference.cache
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.AssemblyInfoInputs.cache
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.AssemblyInfo.cs
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.csproj.CoreCompileInputs.cache
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.csproj.CopyComplete
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.dll
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.BAL\obj\Release\netcoreapp2.0\uccApiCore2.BAL.pdb

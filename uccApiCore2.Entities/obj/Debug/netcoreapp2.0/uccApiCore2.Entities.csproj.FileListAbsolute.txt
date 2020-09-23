@@ -7,3 +7,12 @@ C:\Project\Mohit\EcommApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccAp
 C:\Project\Mohit\EcommApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.csproj.CoreCompileInputs.cache
 C:\Project\Mohit\EcommApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.dll
 C:\Project\Mohit\EcommApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.pdb
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\bin\Debug\netcoreapp2.0\uccApiCore2.Entities.deps.json
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\bin\Debug\netcoreapp2.0\uccApiCore2.Entities.dll
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\bin\Debug\netcoreapp2.0\uccApiCore2.Entities.pdb
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.csprojAssemblyReference.cache
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.AssemblyInfoInputs.cache
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.AssemblyInfo.cs
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.csproj.CoreCompileInputs.cache
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.dll
+C:\Project\KUNAL\EcommChairApiCore\uccApiCore2.Entities\obj\Debug\netcoreapp2.0\uccApiCore2.Entities.pdb

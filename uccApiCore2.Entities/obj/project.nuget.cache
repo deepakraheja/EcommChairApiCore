@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S2cQRFY4PZJUX9tk9THOlW42mjfAljYFcSoSarn1oGgJDwVpEjYQ3576FHSpfgisfxea1e1v2Xo1q4540On+Aw==",
+  "dgSpecHash": "J9+vV30FC9L1zd4c1YK/qvDtO827Nx3+AU4EdqRqqThzrvy325FWrmfThrIvSYqJJaFJP/KrkyrDa9ZzINueDQ==",
   "success": true,
-  "projectFilePath": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj",
+  "projectFilePath": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.Entities\\uccApiCore2.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deepak raheja\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
     "C:\\Users\\deepak raheja\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",

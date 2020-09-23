@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mIgVVp+HwDSo2UIjPQK2P2VmF2wl2JodAaE8vmE2LKBZlcGP72NWCyYZK95CqV2WH7gO5+MMMJjw67/ohvjwWg==",
+  "dgSpecHash": "eR/e4Z5ojeda45zcChVgmRtWUYTAD8bCR5/6rWwik82vag9TEKFbQyguKS68rhnPyCttUaXlZMWRDnCHDtbg9Q==",
   "success": true,
-  "projectFilePath": "C:\\Project\\Mohit\\EcommApiCore\\uccApiCore2.BAL\\uccApiCore2.BAL.csproj",
+  "projectFilePath": "C:\\Project\\KUNAL\\EcommChairApiCore\\uccApiCore2.BAL\\uccApiCore2.BAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deepak raheja\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\deepak raheja\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
