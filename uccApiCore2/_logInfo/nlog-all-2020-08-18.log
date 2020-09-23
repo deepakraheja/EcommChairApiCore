@@ -1,0 +1,28 @@
+2020-08-18 08:32:28.2251||DEBUG|uccApiCore2.Program|init main 
+2020-08-18 08:32:29.6944||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-08-18 08:32:31.1817|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Product/GetAllProductBySupplierId/   
+2020-08-18 08:32:31.1817|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Supplier/GetSupplier/   
+2020-08-18 08:32:31.4731|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-08-18 08:32:31.4731|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-08-18 08:32:31.6157|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 457.5248ms 204  
+2020-08-18 08:32:31.6157|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 458.8815ms 204  
+2020-08-18 08:32:31.9833|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Supplier/GetSupplier/ application/json 12 
+2020-08-18 08:32:31.9833|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Product/GetAllProductBySupplierId/ application/json 16 
+2020-08-18 08:32:32.3469|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-18 08:32:32.3469|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-08-18 08:32:32.3469|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-08-18 08:32:32.3469|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-08-18 08:32:32.3606|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-08-18 08:32:32.3606|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-08-18 08:32:33.1797|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-08-18 08:32:33.1797|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-08-18 08:32:33.8234|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.SupplierController.GetSupplier (uccApiCore2) with arguments (uccApiCore2.Entities.Supplier) - ModelState is Valid 
+2020-08-18 08:32:33.8234|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.ProductController.GetAllProductBySupplierId (uccApiCore2) with arguments (uccApiCore2.Entities.Product) - ModelState is Valid 
+2020-08-18 08:32:48.2808||ERROR|uccApiCore2.Controllers.ProductController|Something went wrong inside ProductController GetAllProductBySupplierId action: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) 
+2020-08-18 08:32:48.2808||ERROR|uccApiCore2.Controllers.SupplierController|Something went wrong inside SupplierController GetSupplier action: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) 
+2020-08-18 08:32:48.3288|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-08-18 08:32:48.3288|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-08-18 08:32:48.3517|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.ProductController.GetAllProductBySupplierId (uccApiCore2) in 15296.9302ms 
+2020-08-18 08:32:48.3517|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.SupplierController.GetSupplier (uccApiCore2) in 15296.9303ms 
+2020-08-18 08:32:48.3737|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16390.4791ms 204  
+2020-08-18 08:32:48.3737|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16390.4212ms 204  

@@ -1,0 +1,7 @@
+2020-08-19 11:59:13.8840||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-19 12:30:54.9981||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-19 12:49:06.6405||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-19 13:06:42.3182||ERROR|uccApiCore2.Controllers.ProductController|Something went wrong inside ProductController GetProductBybyRowID action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Product/GetWithoutSetProductByRowID|action: GetWithoutSetProductByRowID
+2020-08-19 23:38:27.8461||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-19 23:41:38.9906||DEBUG|uccApiCore2.Program|init main |url: |action: 

@@ -1,0 +1,6 @@
+2020-09-09 12:33:42.5788||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-09 13:00:45.8343||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-09 17:57:49.8476||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-09 18:00:54.1837|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "09/09/2020 12:30:51 +00:00". |url: |action: 
+2020-09-09 18:06:58.7231|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "09/09/2020 12:36:57 +00:00". |url: |action: 
+2020-09-09 18:13:14.9564|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "09/09/2020 12:43:12 +00:00". |url: |action: 

@@ -1,0 +1,7 @@
+2020-09-12 15:10:53.6693||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-12 15:11:30.8160||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: String or binary data would be truncated.
+The statement has been terminated. |url: http://localhost/api/users/UserRegistration|action: UserRegistration
+2020-09-12 15:13:22.4797||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: String or binary data would be truncated.
+The statement has been terminated. |url: http://localhost/api/users/UserRegistration|action: UserRegistration
+2020-09-12 15:19:09.0094||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-12 15:23:54.0651||DEBUG|uccApiCore2.Program|init main |url: |action: 

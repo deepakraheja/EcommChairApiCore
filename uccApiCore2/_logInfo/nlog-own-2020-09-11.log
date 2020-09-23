@@ -1,0 +1,24 @@
+2020-09-11 13:27:51.9779||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 14:01:48.9170||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 14:42:18.4698||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 14:42:40.7805||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: Could not load file or assembly 'mailinblue, Version=1.0.7559.26182, Culture=neutral, PublicKeyToken=null'. An attempt was made to load a program with an incorrect format. |url: http://localhost/api/Users/UserRegistration|action: UserRegistration
+2020-09-11 14:43:01.2073||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Users/UserRegistration|action: UserRegistration
+2020-09-11 14:43:29.8988||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: Could not load file or assembly 'mailinblue, Version=1.0.7559.26182, Culture=neutral, PublicKeyToken=null'. An attempt was made to load a program with an incorrect format. |url: http://localhost/api/Users/UserRegistration|action: UserRegistration
+2020-09-11 14:46:19.3241||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 14:48:16.8401||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 17:48:18.5073||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 22:02:10.8606|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "09/11/2020 16:32:02 +00:00". |url: |action: 
+2020-09-11 22:44:53.0006||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 22:45:10.1557||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 22:50:11.3169||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 22:50:32.8391||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/users/UserRegistration|action: UserRegistration
+2020-09-11 22:51:27.9638||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/users/UserRegistration|action: UserRegistration
+2020-09-11 22:51:39.8513||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/users/UserRegistration|action: UserRegistration
+2020-09-11 22:51:54.7979||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/users/UserRegistration|action: UserRegistration
+2020-09-11 23:16:06.2513||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-11 23:21:18.4240||DEBUG|uccApiCore2.Program|init main |url: |action: 

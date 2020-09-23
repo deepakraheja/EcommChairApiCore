@@ -1,0 +1,138 @@
+2020-09-14 09:35:10.5318||DEBUG|uccApiCore2.Program|init main 
+2020-09-14 09:35:33.1388||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-14 09:35:37.9448|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-14 09:35:37.9448|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-14 09:35:40.0660|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2168.7176ms 200  
+2020-09-14 09:35:42.1074|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4223.8099ms 404  
+2020-09-14 09:39:54.6763|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Product/GetProductBySubcatecode   
+2020-09-14 09:39:54.7658|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/Category/GetCategoryJson   
+2020-09-14 09:39:54.9580|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:39:54.9580|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:39:56.1184|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1450.7866ms 204  
+2020-09-14 09:39:56.5950|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Product/GetProductBySubcatecode application/json 29 
+2020-09-14 09:39:56.5950|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:01.5665|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetCategoryJson (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-14 09:40:01.9444|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:02.1614|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetCategoryJson (uccApiCore2) in 1510.8271ms 
+2020-09-14 09:40:02.2118|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7446.0084ms 200 text/plain; charset=utf-8 
+2020-09-14 09:40:03.9133|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.ProductController.GetProductBySubcatecode (uccApiCore2) with arguments (uccApiCore2.Entities.Product) - ModelState is Valid 
+2020-09-14 09:40:08.4942|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:08.8757|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.ProductController.GetProductBySubcatecode (uccApiCore2) in 8246.053ms 
+2020-09-14 09:40:09.0721|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12478.2788ms 200 application/json; charset=utf-8 
+2020-09-14 09:40:30.6572|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/16/frontImage/16-07302020124132-1.jpg   
+2020-09-14 09:40:30.6572|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/12/frontImage/12-08172020103417-1.jpg   
+2020-09-14 09:40:30.6572|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/13/frontImage/13-08172020095440-1.jpg   
+2020-09-14 09:40:30.6572|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/15/frontImage/15-07302020113719-1.jpg   
+2020-09-14 09:40:32.8129|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2153.9262ms 404  
+2020-09-14 09:40:32.9356|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/17/frontImage/17-07302020113757-1.jpg   
+2020-09-14 09:40:32.9407|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2282.1973ms 404  
+2020-09-14 09:40:32.9565|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/18/frontImage/18-07302020112350-1.jpg   
+2020-09-14 09:40:33.1467|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2488.6517ms 404  
+2020-09-14 09:40:33.1626|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2505.5594ms 404  
+2020-09-14 09:40:33.2004|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 243.9469ms 404  
+2020-09-14 09:40:33.2004|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 265.2328ms 404  
+2020-09-14 09:40:36.9202|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin   
+2020-09-14 09:40:36.9334|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:36.9463|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.1251ms 204  
+2020-09-14 09:40:37.0732|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin application/json 71 
+2020-09-14 09:40:37.0909|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:38.0928|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-14 09:40:39.3864|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:39.4404|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 2191.7124ms 
+2020-09-14 09:40:39.4404|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2379.1666ms 200 application/json; charset=utf-8 
+2020-09-14 09:40:39.4887|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Cart/GetCartById   
+2020-09-14 09:40:39.5172|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:39.5172|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.7615ms 204  
+2020-09-14 09:40:39.5513|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Cart/GetCartById application/json 15 
+2020-09-14 09:40:39.7054|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-14 09:40:39.7367|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-14 09:40:39.8959|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:40.0828|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-14 09:40:40.3209|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CartController.GetCartById (uccApiCore2) with arguments (uccApiCore2.Entities.Cart) - ModelState is Valid 
+2020-09-14 09:40:40.9859|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:41.0201|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CartController.GetCartById (uccApiCore2) in 1007.75ms 
+2020-09-14 09:40:41.0329|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1481.5704ms 200 application/json; charset=utf-8 
+2020-09-14 09:40:41.0813|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/31/productSetImage/1/undefined   
+2020-09-14 09:40:41.0813|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.7544ms 404  
+2020-09-14 09:40:42.9554|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Product/GetWithoutSetProductByRowID   
+2020-09-14 09:40:43.0469|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetCategoryJson   
+2020-09-14 09:40:43.0475|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:43.0475|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Cart/GetCartById application/json 15 
+2020-09-14 09:40:43.0973|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:43.1157|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-14 09:40:43.4802|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 524.8311ms 204  
+2020-09-14 09:40:44.1196|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1072.7105ms 204  
+2020-09-14 09:40:44.1196|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Product/GetWithoutSetProductByRowID application/json 70 
+2020-09-14 09:40:44.1680|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-14 09:40:44.1960|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/Category/GetCategoryJson   
+2020-09-14 09:40:44.2057|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-14 09:40:44.2057|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:44.2057|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-14 09:40:44.2057|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-14 09:40:44.2317|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:44.2351|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-14 09:40:44.2351|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-14 09:40:44.2813|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:44.2984|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-14 09:40:44.2984|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetCategoryJson (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-14 09:40:44.2984|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CartController.GetCartById (uccApiCore2) with arguments (uccApiCore2.Entities.Cart) - ModelState is Valid 
+2020-09-14 09:40:44.3700|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:44.3884|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetCategoryJson (uccApiCore2) in 82.4804ms 
+2020-09-14 09:40:44.3952|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.ProductController.GetWithoutSetProductByRowID (uccApiCore2) with arguments (uccApiCore2.Entities.Product) - ModelState is Valid 
+2020-09-14 09:40:44.3952|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 207.6871ms 200 text/plain; charset=utf-8 
+2020-09-14 09:40:44.4452|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:44.4452|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CartController.GetCartById (uccApiCore2) in 217.0776ms 
+2020-09-14 09:40:44.4628|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1407.7985ms 200 application/json; charset=utf-8 
+2020-09-14 09:40:44.4826|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/31/productSetImage/1/undefined   
+2020-09-14 09:40:44.4896|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.0722ms 404  
+2020-09-14 09:40:45.4341|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:45.4698|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.ProductController.GetWithoutSetProductByRowID (uccApiCore2) in 1171.7569ms 
+2020-09-14 09:40:45.5003|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1377.7301ms 200 application/json; charset=utf-8 
+2020-09-14 09:40:54.0095|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Product/GetProductBySubcatecode   
+2020-09-14 09:40:54.0095|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetCategoryJson   
+2020-09-14 09:40:54.0095|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Cart/GetCartById   
+2020-09-14 09:40:54.0095|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:54.0281|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:54.0364|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.0023ms 204  
+2020-09-14 09:40:54.0486|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.6383ms 204  
+2020-09-14 09:40:54.0486|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Product/GetProductBySubcatecode application/json 29 
+2020-09-14 09:40:54.0730|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Cart/GetCartById application/json 15 
+2020-09-14 09:40:54.0905|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-14 09:40:54.0993|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-14 09:40:54.0993|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:54.0993|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-14 09:40:54.0993|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-14 09:40:54.1122|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.3436ms 204  
+2020-09-14 09:40:54.1388|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:54.1388|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:54.1533|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-14 09:40:54.1665|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.ProductController.GetProductBySubcatecode (uccApiCore2) with arguments (uccApiCore2.Entities.Product) - ModelState is Valid 
+2020-09-14 09:40:54.2596|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/Category/GetCategoryJson   
+2020-09-14 09:40:54.4688|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CartController.GetCartById (uccApiCore2) with arguments (uccApiCore2.Entities.Cart) - ModelState is Valid 
+2020-09-14 09:40:54.4729|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:54.4688|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-14 09:40:54.4729|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-14 09:40:54.4729|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.ProductController.GetProductBySubcatecode (uccApiCore2) in 317.8818ms 
+2020-09-14 09:40:54.5016|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-14 09:40:54.5016|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 447.295ms 200 application/json; charset=utf-8 
+2020-09-14 09:40:54.5016|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetCategoryJson (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-14 09:40:54.5259|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:54.5259|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetCategoryJson (uccApiCore2) in 21.0132ms 
+2020-09-14 09:40:54.5412|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 281.6069ms 200 text/plain; charset=utf-8 
+2020-09-14 09:40:54.5824|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-14 09:40:54.5824|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CartController.GetCartById (uccApiCore2) in 437.9675ms 
+2020-09-14 09:40:54.6158|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 542.7456ms 200 application/json; charset=utf-8 
+2020-09-14 09:40:55.8164|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/31/productSetImage/1/undefined   
+2020-09-14 09:40:56.2518|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 435.5562ms 404  
+2020-09-14 09:40:56.2518|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/15/frontImage/15-07302020113719-1.jpg   
+2020-09-14 09:40:56.2851|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/17/frontImage/17-07302020113757-1.jpg   
+2020-09-14 09:40:56.2851|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/13/frontImage/13-08172020095440-1.jpg   
+2020-09-14 09:40:56.2851|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/16/frontImage/16-07302020124132-1.jpg   
+2020-09-14 09:40:56.3347|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/18/frontImage/18-07302020112350-1.jpg   
+2020-09-14 09:40:56.3347|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 82.6117ms 404  
+2020-09-14 09:40:56.3458|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 60.5819ms 404  
+2020-09-14 09:40:56.3458|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 71.439ms 404  
+2020-09-14 09:40:56.3458|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.2331ms 404  
+2020-09-14 09:40:56.3839|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/12/frontImage/12-08172020103417-1.jpg   
+2020-09-14 09:40:56.4047|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.8123ms 404  
+2020-09-14 09:40:56.4248|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 139.7336ms 404  

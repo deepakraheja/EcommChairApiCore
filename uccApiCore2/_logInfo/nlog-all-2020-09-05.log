@@ -1,0 +1,49 @@
+2020-09-05 16:40:14.5054||DEBUG|uccApiCore2.Program|init main 
+2020-09-05 16:40:20.5127||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-05 16:40:36.5998|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-05 16:40:36.5998|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-05 16:40:42.0399|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5489.4624ms 200  
+2020-09-05 16:40:43.5314|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7069.727ms 404  
+2020-09-05 16:47:01.7884|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Product/GetProductBySubcatecode   
+2020-09-05 16:47:01.8657|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-05 16:47:01.9175|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.1219ms 204  
+2020-09-05 16:47:01.9450|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Product/GetProductBySubcatecode application/json 29 
+2020-09-05 16:47:01.9450|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-05 16:47:02.0221|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/Category/GetCategoryJson   
+2020-09-05 16:47:02.0221|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-05 16:47:03.4188|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetCategoryJson (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-05 16:47:14.3610|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-05 16:47:19.9798|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetCategoryJson (uccApiCore2) in 17421.1864ms 
+2020-09-05 16:47:27.0395|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25017.4718ms 200 text/plain; charset=utf-8 
+2020-09-05 16:47:32.1387|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.ProductController.GetProductBySubcatecode (uccApiCore2) with arguments (uccApiCore2.Entities.Product) - ModelState is Valid 
+2020-09-05 16:47:38.8698|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-05 16:47:39.2622|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.ProductController.GetProductBySubcatecode (uccApiCore2) in 36727.4654ms 
+2020-09-05 16:47:39.8693|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37924.2474ms 200 application/json; charset=utf-8 
+2020-09-05 16:47:48.5223|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/16/frontImage/16-07302020124132-1.jpg   
+2020-09-05 16:47:48.5408|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/15/frontImage/15-07302020113719-1.jpg   
+2020-09-05 16:47:48.5408|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/13/frontImage/13-08172020095440-1.jpg   
+2020-09-05 16:47:48.5408|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/12/frontImage/12-08172020103417-1.jpg   
+2020-09-05 16:47:48.5576|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.3107ms 404  
+2020-09-05 16:47:48.5672|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.2013ms 404  
+2020-09-05 16:47:48.5672|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.9597ms 404  
+2020-09-05 16:47:48.5902|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.4942ms 404  
+2020-09-05 16:47:49.2444|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/16/frontImage/16-07302020124132-1.jpg   
+2020-09-05 16:47:49.2444|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/17/frontImage/17-07302020113757-1.jpg   
+2020-09-05 16:47:49.2602|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/18/frontImage/18-07302020112350-1.jpg   
+2020-09-05 16:47:49.2746|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.1688ms 404  
+2020-09-05 16:47:49.2746|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.2614ms 404  
+2020-09-05 16:47:49.2836|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.4059ms 404  
+2020-09-05 16:48:12.5516|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/18/frontImage/18-07302020112350-1.jpg   
+2020-09-05 16:48:12.6518|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 100.2824ms 404  
+2020-09-05 16:48:20.0485|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/17/frontImage/17-07302020113757-1.jpg   
+2020-09-05 16:48:20.0485|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/12/frontImage/12-08172020103417-1.jpg   
+2020-09-05 16:48:20.0485|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/18/frontImage/18-07302020112350-1.jpg   
+2020-09-05 16:48:20.7002|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 651.9866ms 404  
+2020-09-05 16:48:21.0544|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/16/frontImage/16-07302020124132-1.jpg   
+2020-09-05 16:48:21.0544|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1008.4162ms 404  
+2020-09-05 16:48:21.0973|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.9085ms 404  
+2020-09-05 16:48:21.0973|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1048.9674ms 404  
+2020-09-05 16:48:21.7787|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/18/frontImage/18-07302020112350-1.jpg   
+2020-09-05 16:48:21.7787|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/ProductImage/10/frontImage/10-08272020010239-1.jpg   
+2020-09-05 16:48:21.8621|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.4238ms 404  
+2020-09-05 16:48:21.8792|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 100.4175ms 404  

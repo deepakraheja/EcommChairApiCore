@@ -1,0 +1,22 @@
+2020-08-22 15:09:49.3987||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-22 15:09:57.4533||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request System.ArgumentException: Duplicate type name within an assembly.
+   at System.Reflection.Emit.ModuleBuilder.CheckTypeNameConflict(String strTypeName, Type enclosingType)
+   at System.Reflection.Emit.AssemblyBuilderData.CheckTypeNameConflict(String strTypeName, TypeBuilder enclosingType)
+   at System.Reflection.Emit.TypeBuilder.Init(String fullname, TypeAttributes attr, Type parent, Type[] interfaces, ModuleBuilder module, PackingSize iPackingSize, Int32 iTypeSize, TypeBuilder enclosingType)
+   at System.Reflection.Emit.ModuleBuilder.DefineType(String name, TypeAttributes attr, Type parent, Type[] interfaces)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyAssembly.DefineType(String name, TypeAttributes attributes, Type baseType, Type[] interfaces)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter.GenerateProxyTypeFromProperties(Type sourceType, Type targetType, VerificationResult verificationResult)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter.VerifyProxySupport(ProxyBuilderContext context, Tuple`2 key)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter.GetProxyType(ProxyTypeCache cache, Type targetType, Type sourceType)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactory.CreateProxy[TProxy](Object obj)
+   at Proxy_Method_From_<>f__AnonymousType0`3_To_Void OnBeforeAction(Microsoft.AspNetCore.Http.HttpContext, IRouteData)(Object , Object , IProxyFactory )
+   at Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.Write(String diagnosticName, Object parameters)
+   at Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System.IObserver<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/api/Product/GetWithSetProductByRowID|action: GetWithSetProductByRowID
+2020-08-22 15:10:31.4186||DEBUG|uccApiCore2.Program|init main |url: |action: 

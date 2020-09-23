@@ -1,0 +1,459 @@
+2020-09-08 10:29:58.8724||DEBUG|uccApiCore2.Program|init main 
+2020-09-08 10:30:00.7119||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-08 10:30:03.5980|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-08 10:30:03.5980|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-08 10:30:04.5804|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1018.604ms 404  
+2020-09-08 10:30:04.5804|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1018.6039ms 404  
+2020-09-08 10:33:18.7421||DEBUG|uccApiCore2.Program|init main 
+2020-09-08 10:33:20.4913||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-08 10:33:25.5088|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 10:33:29.8973|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:33:30.0260|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4638.24ms 204  
+2020-09-08 10:33:30.1361|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 10:33:30.1361|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:33:31.7025|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 10:34:22.0122||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController ValidLogin action: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) 
+2020-09-08 10:34:22.1189|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:34:22.1781|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 51104.3671ms 
+2020-09-08 10:34:22.2063|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52070.2535ms 204  
+2020-09-08 10:34:53.2113||DEBUG|uccApiCore2.Program|init main 
+2020-09-08 10:34:57.7842||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-08 10:35:01.1158|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-08 10:35:01.1158|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-08 10:35:01.7046|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 640.9104ms 200  
+2020-09-08 10:35:03.2886|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2245.0412ms 404  
+2020-09-08 10:35:23.7614|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 10:35:23.8138|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:35:23.8523|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.8825ms 204  
+2020-09-08 10:35:23.8852|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 10:35:24.0331|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:35:25.5250|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 10:35:41.5653||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController ValidLogin action: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.) 
+2020-09-08 10:35:41.6377|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:35:41.7091|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 16973.0017ms 
+2020-09-08 10:35:41.7590|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17873.8315ms 204  
+2020-09-08 10:35:45.8391|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 10:35:45.8466|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:35:45.8466|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.4699ms 204  
+2020-09-08 10:35:45.8632|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 10:35:45.8632|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:35:45.8885|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 10:35:46.1556||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController ValidLogin action: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.) 
+2020-09-08 10:35:46.1584|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:35:46.1584|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 280.365ms 
+2020-09-08 10:35:46.1584|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 300.6057ms 204  
+2020-09-08 10:35:51.6884|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 10:35:51.6884|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:35:51.7064|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.8928ms 204  
+2020-09-08 10:35:51.7064|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 10:35:51.7450|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:35:51.7605|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 10:36:06.9836||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController ValidLogin action: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15087; handshake=9;  
+2020-09-08 10:36:06.9879|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:36:07.0020|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 15242.8395ms 
+2020-09-08 10:36:07.0020|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15298.3831ms 204  
+2020-09-08 10:36:18.5639|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 10:36:18.5639|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:36:18.5639|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.246ms 204  
+2020-09-08 10:36:18.5863|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 10:36:18.6537|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:36:18.6697|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 10:36:34.2979||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController ValidLogin action: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.) 
+2020-09-08 10:36:34.2979|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:36:34.2979|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 15654.0529ms 
+2020-09-08 10:36:34.3148|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15728.5433ms 204  
+2020-09-08 10:36:41.0610|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 10:36:41.0801|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:36:41.0801|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.3914ms 204  
+2020-09-08 10:36:41.1022|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 10:36:41.1022|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:36:41.1157|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 10:36:42.3058||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController ValidLogin action: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.) 
+2020-09-08 10:36:42.3058|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:36:42.3058|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 1196.1471ms 
+2020-09-08 10:36:42.3149|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1212.744ms 204  
+2020-09-08 10:36:46.9622|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 10:36:46.9747|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:36:46.9747|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.0022ms 204  
+2020-09-08 10:36:47.1264|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 10:36:47.1842|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:36:47.1980|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 10:36:47.5483||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController ValidLogin action: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.) 
+2020-09-08 10:36:47.5483|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:36:47.5483|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 364.1617ms 
+2020-09-08 10:36:47.5796|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 453.2246ms 204  
+2020-09-08 10:46:16.6649|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 10:46:16.6963|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:46:16.7051|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.2416ms 204  
+2020-09-08 10:46:16.7319|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 10:46:16.7360|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:46:16.7360|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.0256ms 404  
+2020-09-08 10:46:25.1822|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 10:46:25.2107|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:46:25.2107|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.8422ms 204  
+2020-09-08 10:46:25.2306|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 10:46:25.2353|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:46:25.2353|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.036ms 404  
+2020-09-08 10:48:49.9597|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 10:48:50.1994|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:48:50.3117|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 352.5987ms 204  
+2020-09-08 10:48:50.3272|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 10:48:50.3313|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:48:50.3313|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.9224ms 404  
+2020-09-08 10:54:47.9423||DEBUG|uccApiCore2.Program|init main 
+2020-09-08 10:54:50.9869||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-08 10:54:52.6317|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-08 10:54:52.6317|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-08 10:54:52.9648|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 360.8548ms 200  
+2020-09-08 10:54:53.4948|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 899.9104ms 404  
+2020-09-08 10:55:30.3945|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 10:55:30.4470|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:55:30.5157|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 121.4635ms 204  
+2020-09-08 10:55:30.5857|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 10:55:30.6076|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:55:31.4078|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 10:55:46.0305|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:55:46.1657|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 15265.6729ms 
+2020-09-08 10:55:47.4905|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16904.7745ms 200 application/json; charset=utf-8 
+2020-09-08 10:56:02.9148|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 10:56:02.9339|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:56:02.9545|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.6757ms 204  
+2020-09-08 10:56:02.9545|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 10:56:02.9759|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:56:02.9894|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 10:56:12.9690|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:56:12.9873|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 10003.4066ms 
+2020-09-08 10:56:13.0040|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10037.8777ms 200 application/json; charset=utf-8 
+2020-09-08 10:57:22.2047|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 10:57:22.2302|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:57:22.4275|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 222.7906ms 204  
+2020-09-08 10:57:22.4470|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 10:57:22.4553|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:57:22.4553|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 10:57:31.1806|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:57:31.1806|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 8724.8749ms 
+2020-09-08 10:57:31.1890|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8742.0026ms 200 application/json; charset=utf-8 
+2020-09-08 10:59:24.0114|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 10:59:24.0752|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:59:24.0980|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 86.6793ms 204  
+2020-09-08 10:59:24.3699|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 10:59:24.4597|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:59:24.4597|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 10:59:24.6224|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:59:24.6401|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 173.592ms 
+2020-09-08 10:59:24.6578|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 287.9154ms 200 application/json; charset=utf-8 
+2020-09-08 10:59:31.2182|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 10:59:31.2420|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:59:31.2668|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.6087ms 204  
+2020-09-08 10:59:31.2668|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 10:59:31.2834|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 10:59:31.2834|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 10:59:31.4067|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 10:59:31.4103|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 122.0083ms 
+2020-09-08 10:59:31.4103|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 134.976ms 200 application/json; charset=utf-8 
+2020-09-08 11:00:18.5920|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 11:00:18.6046|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:00:18.6673|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 75.2768ms 204  
+2020-09-08 11:00:18.7040|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 11:00:18.7100|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:00:18.7100|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 11:00:18.8494|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:00:18.8601|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 143.0092ms 
+2020-09-08 11:00:18.8601|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 162.7096ms 200 application/json; charset=utf-8 
+2020-09-08 11:00:26.2106|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 11:00:26.2643|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:00:26.2711|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 60.4932ms 204  
+2020-09-08 11:00:26.4088|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 11:00:26.4251|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:00:26.4251|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 11:00:26.5921|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:00:26.5954|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 164.519ms 
+2020-09-08 11:00:26.5954|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 191.2464ms 200 application/json; charset=utf-8 
+2020-09-08 11:02:16.1594|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 11:02:16.2324|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:02:16.2635|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 104.209ms 204  
+2020-09-08 11:02:16.4169|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 11:02:16.4315|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:02:16.4542|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 11:02:16.5571|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:02:16.6459|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 192.5186ms 
+2020-09-08 11:02:16.6602|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 243.3881ms 200 application/json; charset=utf-8 
+2020-09-08 11:03:39.6698|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-08 11:03:39.6880|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:03:39.8336|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 163.8922ms 204  
+2020-09-08 11:03:39.8674|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 11:03:39.8674|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:03:39.8780|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 11:03:39.9701|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:03:39.9701|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 100.2302ms 
+2020-09-08 11:03:39.9878|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 120.3831ms 200 application/json; charset=utf-8 
+2020-09-08 11:03:41.6975|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 67 
+2020-09-08 11:03:41.6975|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:03:41.7110|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-08 11:03:41.8034|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:03:41.8034|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 96.9765ms 
+2020-09-08 11:03:41.8034|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 113.2917ms 200 application/json; charset=utf-8 
+2020-09-08 11:05:14.5070|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 11:05:14.5070|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:14.5552|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.1326ms 204  
+2020-09-08 11:05:15.0772|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 11:05:15.0849|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:15.1314|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 11:05:15.3469|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:05:15.3750|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 273.1046ms 
+2020-09-08 11:05:15.3791|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 301.873ms 200 application/json; charset=utf-8 
+2020-09-08 11:05:15.4496|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Order/GetDashboardSummary   
+2020-09-08 11:05:15.4542|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:15.4542|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.5961ms 204  
+2020-09-08 11:05:15.4542|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Order/GetDashboardSummary application/json 2 
+2020-09-08 11:05:15.5754|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:05:15.5934|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:05:15.6208|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:15.6837|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:05:15.7119|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-08 11:05:15.8308|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:05:15.9135|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) in 256.2643ms 
+2020-09-08 11:05:15.9240|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 459.2444ms 200 application/json; charset=utf-8 
+2020-09-08 11:05:19.7578|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 11:05:19.7717|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:19.8065|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.7003ms 204  
+2020-09-08 11:05:19.8574|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 11:05:19.8630|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:05:19.8630|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:05:19.8630|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:19.8890|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:05:19.9216|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) with arguments (uccApiCore2.Entities.Category) - ModelState is Valid 
+2020-09-08 11:05:20.1412|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:05:20.1635|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 274.6616ms 
+2020-09-08 11:05:20.1773|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 319.8964ms 200 application/json; charset=utf-8 
+2020-09-08 11:05:26.6767|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 11:05:26.7411|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:26.8609|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 184.2149ms 204  
+2020-09-08 11:05:26.9225|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 11:05:26.9261|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:26.9261|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2020-09-08 11:05:26.9430|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2020-09-08 11:05:26.9602|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2020-09-08 11:05:27.0112|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2020-09-08 11:05:27.0218|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 84.3918ms 
+2020-09-08 11:05:27.0218|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 104.1405ms 401  
+2020-09-08 11:05:59.1514|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 11:05:59.1514|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:59.1700|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.5461ms 204  
+2020-09-08 11:05:59.1831|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 11:05:59.1831|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:59.1935|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 11:05:59.2838|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:05:59.2838|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 94.0767ms 
+2020-09-08 11:05:59.2990|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 115.8932ms 200 application/json; charset=utf-8 
+2020-09-08 11:05:59.4635|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Order/GetDashboardSummary   
+2020-09-08 11:05:59.4813|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:59.4943|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.8848ms 204  
+2020-09-08 11:05:59.5113|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Order/GetDashboardSummary application/json 2 
+2020-09-08 11:05:59.5164|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:05:59.5459|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:05:59.5563|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:05:59.5640|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:05:59.6680|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-08 11:05:59.7801|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:05:59.7835|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) in 219.5859ms 
+2020-09-08 11:05:59.7835|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 277.9094ms 200 application/json; charset=utf-8 
+2020-09-08 11:06:03.7268|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Fabric/GetAllFabric/   
+2020-09-08 11:06:03.7268|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:03.7410|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.1759ms 204  
+2020-09-08 11:06:03.7410|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Fabric/GetAllFabric/ application/json 14 
+2020-09-08 11:06:03.7581|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:06:03.7581|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:06:03.7581|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:03.7801|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:06:03.7943|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.FabricController.GetAllFabric (uccApiCore2) with arguments (uccApiCore2.Entities.Fabric) - ModelState is Valid 
+2020-09-08 11:06:03.8949|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:06:03.9071|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.FabricController.GetAllFabric (uccApiCore2) in 126.8873ms 
+2020-09-08 11:06:03.9071|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 162.5974ms 200 application/json; charset=utf-8 
+2020-09-08 11:06:11.6946|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Fabric/GetAllFabric/   
+2020-09-08 11:06:11.8307|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:11.8783|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 183.7775ms 204  
+2020-09-08 11:06:11.9945|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Fabric/GetAllFabric/ application/json 14 
+2020-09-08 11:06:11.9945|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:12.0100|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2020-09-08 11:06:12.0100|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2020-09-08 11:06:12.0164|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2020-09-08 11:06:12.0164|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2020-09-08 11:06:12.0164|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.FabricController.GetAllFabric (uccApiCore2) in 20.7834ms 
+2020-09-08 11:06:12.0344|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.0987ms 401  
+2020-09-08 11:06:38.5634|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 11:06:38.6569|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:38.9867|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 423.279ms 204  
+2020-09-08 11:06:39.0012|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 11:06:39.0012|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:39.0012|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 11:06:39.0949|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:06:39.0949|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 95.9296ms 
+2020-09-08 11:06:39.1142|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 112.9646ms 200 application/json; charset=utf-8 
+2020-09-08 11:06:39.2548|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Order/GetDashboardSummary   
+2020-09-08 11:06:39.3691|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:39.3691|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 120.0113ms 204  
+2020-09-08 11:06:39.3878|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Order/GetDashboardSummary application/json 2 
+2020-09-08 11:06:39.4417|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:06:39.4417|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:06:39.4572|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:39.4572|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:06:39.4572|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-08 11:06:39.5582|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:06:39.5664|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) in 102.841ms 
+2020-09-08 11:06:39.5664|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 184.729ms 200 application/json; charset=utf-8 
+2020-09-08 11:06:42.8096|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 11:06:42.8504|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:42.8504|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.8447ms 204  
+2020-09-08 11:06:42.9238|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 11:06:42.9238|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:06:42.9435|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:06:42.9757|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:43.0001|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:06:43.0426|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) with arguments (uccApiCore2.Entities.Category) - ModelState is Valid 
+2020-09-08 11:06:43.2176|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:06:43.2505|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 250.2889ms 
+2020-09-08 11:06:43.3266|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 402.8371ms 200 application/json; charset=utf-8 
+2020-09-08 11:06:49.8377|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 11:06:49.8377|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:49.8499|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.1391ms 204  
+2020-09-08 11:06:49.8907|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 11:06:49.8994|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:06:49.9390|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2020-09-08 11:06:49.9667|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2020-09-08 11:06:49.9823|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2020-09-08 11:06:50.0405|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2020-09-08 11:06:50.1030|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 164.0295ms 
+2020-09-08 11:06:50.1179|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 227.2179ms 401  
+2020-09-08 11:07:42.7200|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 11:07:42.7416|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:07:42.7906|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 70.6806ms 204  
+2020-09-08 11:07:42.9607|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 11:07:43.0166|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:07:43.0392|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 11:07:43.1681|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:07:43.1681|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 143.941ms 
+2020-09-08 11:07:43.1781|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 217.3875ms 200 application/json; charset=utf-8 
+2020-09-08 11:07:50.4379|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Order/GetDashboardSummary   
+2020-09-08 11:07:50.4907|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:07:50.5849|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 147.0084ms 204  
+2020-09-08 11:07:50.5992|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Order/GetDashboardSummary application/json 2 
+2020-09-08 11:07:50.5992|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:07:50.5992|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:07:50.6138|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:07:50.6138|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:07:50.6256|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-08 11:07:50.7171|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:07:50.7206|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) in 100.982ms 
+2020-09-08 11:07:50.7206|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 125.8539ms 200 application/json; charset=utf-8 
+2020-09-08 11:08:06.5050|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 11:08:06.5627|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:08:06.5767|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 71.7811ms 204  
+2020-09-08 11:08:06.6006|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 11:08:06.6006|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:08:06.6151|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:08:06.6151|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:08:06.6151|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:08:06.6289|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) with arguments (uccApiCore2.Entities.Category) - ModelState is Valid 
+2020-09-08 11:08:06.8153|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:08:06.8627|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 239.7817ms 
+2020-09-08 11:08:06.8627|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 269.6642ms 200 application/json; charset=utf-8 
+2020-09-08 11:08:58.9835|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 11:08:59.1563|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:08:59.2262|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 242.7166ms 204  
+2020-09-08 11:08:59.3046|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 11:08:59.3590|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:08:59.4220|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2020-09-08 11:08:59.4271|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2020-09-08 11:08:59.4394|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2020-09-08 11:08:59.4394|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2020-09-08 11:08:59.5435|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 121.5621ms 
+2020-09-08 11:08:59.5545|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 249.7373ms 401  
+2020-09-08 11:12:12.6342|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 11:12:12.6500|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:12:12.7217|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.4823ms 204  
+2020-09-08 11:12:12.7451|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 11:12:12.7605|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:12:12.7720|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 11:12:13.2619|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:12:13.2717|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 504.5964ms 
+2020-09-08 11:12:13.2717|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 533.605ms 200 application/json; charset=utf-8 
+2020-09-08 11:12:13.4387|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Order/GetDashboardSummary   
+2020-09-08 11:12:13.5717|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:12:13.5717|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 137.5229ms 204  
+2020-09-08 11:12:13.5835|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Order/GetDashboardSummary application/json 2 
+2020-09-08 11:12:13.5835|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:12:13.5835|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:12:13.5953|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:12:13.5953|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:12:13.6220|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-08 11:12:13.7178|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:12:13.7220|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) in 119.7125ms 
+2020-09-08 11:12:13.7220|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 143.5585ms 200 application/json; charset=utf-8 
+2020-09-08 11:12:16.6246|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 11:12:16.7014|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:12:16.7174|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.8816ms 204  
+2020-09-08 11:12:16.8503|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 11:12:16.8671|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 11:12:17.0442|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 11:12:17.0567|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:12:17.0567|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 11:12:17.1594|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) with arguments (uccApiCore2.Entities.Category) - ModelState is Valid 
+2020-09-08 11:12:17.2719|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 11:12:17.2719|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 214.0931ms 
+2020-09-08 11:12:17.2881|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 437.8027ms 200 application/json; charset=utf-8 
+2020-09-08 11:12:24.8743|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 11:12:24.8851|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:12:24.8918|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.5535ms 204  
+2020-09-08 11:12:24.8918|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 11:12:24.9188|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 11:12:24.9232|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2020-09-08 11:12:24.9232|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2020-09-08 11:12:24.9232|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2020-09-08 11:12:24.9563|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2020-09-08 11:12:24.9563|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 40.9666ms 
+2020-09-08 11:12:24.9563|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.8902ms 401  
+2020-09-08 12:27:27.1146|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-08 12:27:27.1285|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 12:27:27.1975|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.3276ms 204  
+2020-09-08 12:27:27.3970|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-08 12:27:27.3970|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 12:27:27.4487|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-08 12:27:28.1362|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 12:27:28.1362|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 704.729ms 
+2020-09-08 12:27:28.1457|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 748.6948ms 200 application/json; charset=utf-8 
+2020-09-08 12:27:28.3467|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Order/GetDashboardSummary   
+2020-09-08 12:27:28.3467|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 12:27:28.3652|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.8037ms 204  
+2020-09-08 12:27:28.3868|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Order/GetDashboardSummary application/json 2 
+2020-09-08 12:27:28.3955|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 12:27:28.4200|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 12:27:28.4339|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 12:27:28.4446|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 12:27:28.4546|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-08 12:27:28.5846|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 12:27:28.5958|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) in 151.3307ms 
+2020-09-08 12:27:28.5958|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 222.6228ms 200 application/json; charset=utf-8 
+2020-09-08 12:27:40.1980|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 12:27:40.2050|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 12:27:40.2050|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.837ms 204  
+2020-09-08 12:27:40.2050|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 12:27:40.2259|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-08 12:27:40.2259|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-08 12:27:40.2421|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 12:27:40.2421|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-08 12:27:40.2555|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) with arguments (uccApiCore2.Entities.Category) - ModelState is Valid 
+2020-09-08 12:27:40.4174|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-08 12:27:40.4280|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 181.5591ms 
+2020-09-08 12:27:40.4447|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 226.6181ms 200 application/json; charset=utf-8 
+2020-09-08 12:27:59.4301|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Category/GetAllMainCategory/   
+2020-09-08 12:27:59.4557|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 12:27:59.5204|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.2754ms 204  
+2020-09-08 12:27:59.6596|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Category/GetAllMainCategory/ application/json 12 
+2020-09-08 12:27:59.6596|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-08 12:27:59.6766|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2020-09-08 12:27:59.6766|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2020-09-08 12:27:59.6918|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2020-09-08 12:27:59.7054|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2020-09-08 12:27:59.7054|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.CategoryController.GetAllMainCategory (uccApiCore2) in 40.328ms 
+2020-09-08 12:27:59.7425|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 82.9857ms 401  

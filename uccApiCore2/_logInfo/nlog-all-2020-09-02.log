@@ -1,0 +1,29 @@
+2020-09-02 19:27:20.0378||DEBUG|uccApiCore2.Program|init main 
+2020-09-02 19:27:47.6761||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-02 19:27:53.1727|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-02 19:27:53.1727|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-02 19:27:53.1727|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-02 19:27:53.1727|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-02 19:27:55.8925|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2763.8499ms 200  
+2020-09-02 19:27:58.5725|5|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution failed. 
+2020-09-02 19:27:58.5725|5|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution failed. 
+2020-09-02 19:27:58.6755|6|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:4800 does not have permission to access the resource. 
+2020-09-02 19:27:58.7406|6|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Request origin http://localhost:4800 does not have permission to access the resource. 
+2020-09-02 19:27:58.9268|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5808.5463ms 204  
+2020-09-02 19:27:58.9268|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5809.0769ms 204  
+2020-09-02 19:28:04.0892|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10971.1836ms 404  
+2020-09-02 19:29:10.7534||DEBUG|uccApiCore2.Program|init main 
+2020-09-02 19:29:26.1604||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-02 19:29:32.4219|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-02 19:29:32.4219|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-02 19:29:34.6496|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2441.5392ms 200  
+2020-09-02 19:29:37.7655|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5581.6462ms 404  
+2020-09-02 19:29:56.1871|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-02 19:29:57.3268|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-02 19:29:57.4257|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1238.6061ms 204  
+2020-09-02 19:29:57.4445|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 61 
+2020-09-02 19:29:57.4727|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-02 19:29:59.3202|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-02 19:30:02.0920|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-02 19:30:02.4190|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 4524.0631ms 
+2020-09-02 19:30:02.5726|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5128.13ms 200 application/json; charset=utf-8 

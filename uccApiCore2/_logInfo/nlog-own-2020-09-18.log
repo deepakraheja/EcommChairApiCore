@@ -1,0 +1,64 @@
+2020-09-18 00:46:41.2417||ERROR|uccApiCore2.Controllers.ProductController|Something went wrong inside ProductController GetProductBybyRowID action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Product/GetWithSetProductByRowID|action: GetWithSetProductByRowID
+2020-09-18 11:29:42.6000||ERROR|uccApiCore2.Controllers.ProductController|Something went wrong inside ProductController GetProductBybyRowID action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Product/GetWithSetProductByRowID|action: GetWithSetProductByRowID
+2020-09-18 13:36:27.4416||ERROR|uccApiCore2.Controllers.ProductController|Something went wrong inside ProductController GetProductBybyRowID action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Product/GetWithSetProductByRowID|action: GetWithSetProductByRowID
+2020-09-18 13:36:52.3245||ERROR|uccApiCore2.Controllers.ProductController|Something went wrong inside ProductController GetProductBybyRowID action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Product/GetWithSetProductByRowID|action: GetWithSetProductByRowID
+2020-09-18 13:37:30.9288||ERROR|uccApiCore2.Controllers.ProductController|Something went wrong inside ProductController GetProductBybyRowID action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Product/GetWithSetProductByRowID|action: GetWithSetProductByRowID
+2020-09-18 13:37:45.9064||ERROR|uccApiCore2.Controllers.ProductController|Something went wrong inside ProductController GetProductBybyRowID action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Product/GetWithSetProductByRowID|action: GetWithSetProductByRowID
+2020-09-18 13:51:36.6141||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 13:55:17.4858||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 13:59:44.6077||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 14:00:33.4751||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 14:00:48.5536||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request System.DivideByZeroException: Attempted to divide by zero.
+   at uccApiCore2.Entities.Product.get_Discount() in C:\Project\Mohit\EcommApiCore\uccApiCore2.Entities\Product.cs:line 68
+   at Microsoft.Extensions.Internal.PropertyHelper.CallNullSafePropertyGetter[TDeclaringType,TValue](Func`2 getter, Object target)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationEntry.get_Model()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultObjectValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/api/Product/GetProductBySubcatecode|action: GetProductBySubcatecode
+2020-09-18 14:01:57.3866||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 14:20:13.2561||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 14:22:40.6453||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 14:23:32.3913||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 14:25:20.9217||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-09-18 14:25:38.5360||ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request System.ArgumentException: Duplicate type name within an assembly.
+   at System.Reflection.Emit.ModuleBuilder.CheckTypeNameConflict(String strTypeName, Type enclosingType)
+   at System.Reflection.Emit.AssemblyBuilderData.CheckTypeNameConflict(String strTypeName, TypeBuilder enclosingType)
+   at System.Reflection.Emit.TypeBuilder.Init(String fullname, TypeAttributes attr, Type parent, Type[] interfaces, ModuleBuilder module, PackingSize iPackingSize, Int32 iTypeSize, TypeBuilder enclosingType)
+   at System.Reflection.Emit.ModuleBuilder.DefineType(String name, TypeAttributes attr, Type parent, Type[] interfaces)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyAssembly.DefineType(String name, TypeAttributes attributes, Type baseType, Type[] interfaces)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter.GenerateProxyTypeFromProperties(Type sourceType, Type targetType, VerificationResult verificationResult)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter.VerifyProxySupport(ProxyBuilderContext context, Tuple`2 key)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyTypeEmitter.GetProxyType(ProxyTypeCache cache, Type targetType, Type sourceType)
+   at Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyFactory.CreateProxy[TProxy](Object obj)
+   at Proxy_Method_From_<>f__AnonymousType0`3_To_Void OnBeforeAction(Microsoft.AspNetCore.Http.HttpContext, IRouteData)(Object , Object , IProxyFactory )
+   at Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.Write(String diagnosticName, Object parameters)
+   at Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System.IObserver<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/api/Product/GetWithSetProductByRowID|action: GetWithSetProductByRowID
+2020-09-18 14:26:58.4138||DEBUG|uccApiCore2.Program|init main |url: |action: 

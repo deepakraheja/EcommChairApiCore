@@ -1,0 +1,5 @@
+2020-08-15 16:22:20.1910||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-15 16:22:37.1818|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "08/15/2020 10:52:37 +00:00". |url: |action: 
+2020-08-15 17:20:03.9758||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController UserRegistration action: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index |url: http://localhost/api/Users/UserRegistration|action: UserRegistration
+2020-08-15 17:44:56.2388|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "08/15/2020 12:14:56 +00:00". |url: |action: 

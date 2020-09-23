@@ -1,0 +1,24 @@
+2020-08-24 08:35:46.9106||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 08:39:13.3712||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 08:47:16.8124||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 09:09:28.5023||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 09:10:48.4183||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 11:36:54.4484||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 11:40:03.7576||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 11:56:24.7072||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 12:05:18.5471||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 12:08:55.5451||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 12:25:30.3772||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 12:26:23.9877||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 12:30:43.2901||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController checkMobileAllReadyRegisteredOrNot action: Cannot perform runtime binding on a null reference |url: http://localhost/api/Users/CheckMobileAllReadyRegisteredOrNot|action: CheckMobileAllReadyRegisteredOrNot
+2020-08-24 12:33:03.4500||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController checkMobileAllReadyRegisteredOrNot action: Cannot perform runtime binding on a null reference |url: http://localhost/api/Users/CheckMobileAllReadyRegisteredOrNot|action: CheckMobileAllReadyRegisteredOrNot
+2020-08-24 12:34:41.9000||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 12:59:15.2557||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 12:59:57.0669||ERROR|uccApiCore2.Controllers.UsersController|Something went wrong inside UsersController checkMobileAllReadyRegisteredOrNot action: Could not find stored procedure ' p_OtpLog_ins'. |url: http://localhost/api/Users/CheckMobileAllReadyRegisteredOrNot|action: CheckMobileAllReadyRegisteredOrNot
+2020-08-24 13:01:06.3477||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 13:07:01.3899||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 13:07:07.6649||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 13:07:45.5867||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 13:22:22.0967||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 14:19:20.9372||DEBUG|uccApiCore2.Program|init main |url: |action: 
+2020-08-24 14:45:31.2825||DEBUG|uccApiCore2.Program|init main |url: |action: 

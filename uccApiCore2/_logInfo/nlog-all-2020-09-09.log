@@ -1,0 +1,207 @@
+2020-09-09 12:33:42.5788||DEBUG|uccApiCore2.Program|init main 
+2020-09-09 12:33:55.8887||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-09 12:33:59.1653|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-09 12:33:59.1653|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-09 12:34:00.6624|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1529.9375ms 200  
+2020-09-09 12:34:02.5676|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3458.6266ms 404  
+2020-09-09 12:54:06.9932|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/ValidLogin/   
+2020-09-09 12:54:07.2480|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:07.2904|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 304.0311ms 204  
+2020-09-09 12:54:07.3104|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/ValidLogin/ application/json 52 
+2020-09-09 12:54:07.3233|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:09.4734|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-09 12:54:12.2068|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 12:54:12.3424|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.ValidLogin (uccApiCore2) in 4426.3999ms 
+2020-09-09 12:54:12.3709|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5060.4975ms 200 application/json; charset=utf-8 
+2020-09-09 12:54:12.5606|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Order/GetDashboardSummary   
+2020-09-09 12:54:12.5879|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:12.5968|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36.2266ms 204  
+2020-09-09 12:54:12.6247|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Order/GetDashboardSummary application/json 2 
+2020-09-09 12:54:12.7607|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 12:54:12.7739|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 12:54:12.7847|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:12.8655|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 12:54:12.9170|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-09 12:54:13.0732|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 12:54:13.1327|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.OrderController.GetDashboardSummary (uccApiCore2) in 327.5812ms 
+2020-09-09 12:54:13.1327|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 514.2928ms 200 application/json; charset=utf-8 
+2020-09-09 12:54:18.6661|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/GetAgentInfo/   
+2020-09-09 12:54:18.6975|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:18.7146|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.5401ms 204  
+2020-09-09 12:54:18.7334|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/GetAgentInfo/ application/json 13 
+2020-09-09 12:54:18.7565|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 12:54:18.7565|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 12:54:18.7697|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:18.7960|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 12:54:18.8172|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.GetAgentInfo (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-09 12:54:19.2422|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 12:54:19.3153|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.GetAgentInfo (uccApiCore2) in 519.4207ms 
+2020-09-09 12:54:19.3153|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 587.0819ms 200 application/json; charset=utf-8 
+2020-09-09 12:54:21.9338|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAgentCustomer   
+2020-09-09 12:54:21.9466|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:21.9466|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.9603ms 204  
+2020-09-09 12:54:22.0412|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAgentCustomer application/json 13 
+2020-09-09 12:54:22.0580|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 12:54:22.0892|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 12:54:22.1789|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:22.2255|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 12:54:22.2600|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.GetAgentCustomer (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-09 12:54:22.3974|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 12:54:22.4244|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.GetAgentCustomer (uccApiCore2) in 198.9418ms 
+2020-09-09 12:54:22.4244|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 396.44ms 200 application/json; charset=utf-8 
+2020-09-09 12:54:33.6705|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/SaveAgentCustomer/   
+2020-09-09 12:54:33.6792|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:33.6992|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.7065ms 204  
+2020-09-09 12:54:33.7697|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/SaveAgentCustomer/ application/json 43 
+2020-09-09 12:54:33.7697|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 12:54:33.7697|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 12:54:33.7867|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:33.8610|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 12:54:33.8610|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.SaveAgentCustomer (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-09 12:54:34.0603|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 12:54:34.0603|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.SaveAgentCustomer (uccApiCore2) in 202.1782ms 
+2020-09-09 12:54:34.0692|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 299.304ms 200 application/json; charset=utf-8 
+2020-09-09 12:54:40.0854|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/SaveAgentCustomer/   
+2020-09-09 12:54:40.0854|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:40.1455|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 60.1178ms 204  
+2020-09-09 12:54:40.1455|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/SaveAgentCustomer/ application/json 36 
+2020-09-09 12:54:40.1571|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 12:54:40.1571|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 12:54:40.1571|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:54:40.1734|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 12:54:40.1734|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.SaveAgentCustomer (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-09 12:54:40.2682|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 12:54:40.2682|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.SaveAgentCustomer (uccApiCore2) in 100.5363ms 
+2020-09-09 12:54:40.2682|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 125.2307ms 200 application/json; charset=utf-8 
+2020-09-09 12:55:17.9078|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/ValidAgentLogin/   
+2020-09-09 12:55:17.9344|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:55:17.9849|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 76.9895ms 204  
+2020-09-09 12:55:18.0516|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/ValidAgentLogin/ application/json 57 
+2020-09-09 12:55:18.0516|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:55:18.0747|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-09 12:55:18.1720|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 12:55:18.1750|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.ValidAgentLogin (uccApiCore2) in 101.5614ms 
+2020-09-09 12:55:18.1750|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 130.0566ms 200 application/json; charset=utf-8 
+2020-09-09 12:55:22.2255|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAgentCustomerByAgentId   
+2020-09-09 12:55:22.2490|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:55:22.2560|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.4755ms 204  
+2020-09-09 12:55:22.2699|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAgentCustomerByAgentId application/json 13 
+2020-09-09 12:55:22.2699|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 12:55:22.2848|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 12:55:22.3056|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:55:22.3056|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 43.3621ms 404  
+2020-09-09 12:58:39.4163|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAgentCustomerByAgentId   
+2020-09-09 12:58:39.5331|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:58:39.5844|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 168.1024ms 204  
+2020-09-09 12:58:40.0535|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAgentCustomerByAgentId application/json 13 
+2020-09-09 12:58:40.3504|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 12:58:40.3504|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 12:58:40.3504|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 12:58:40.3647|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 311.2978ms 404  
+2020-09-09 13:00:45.8343||DEBUG|uccApiCore2.Program|init main 
+2020-09-09 13:00:54.4395||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-09 13:01:01.0370|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5205/api/values   
+2020-09-09 13:01:01.0370|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:5205/  0 
+2020-09-09 13:01:03.0220|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAgentCustomerByAgentId   
+2020-09-09 13:01:06.7192|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5687.1566ms 200  
+2020-09-09 13:01:07.9759|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 13:01:08.2657|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5243.7052ms 204  
+2020-09-09 13:01:08.5293|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAgentCustomerByAgentId application/json 13 
+2020-09-09 13:01:09.8170|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 13:01:09.9367|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 13:01:09.9792|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 13:01:09.9959|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9089.6839ms 404  
+2020-09-09 13:01:10.7709|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 13:01:11.9189|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.GetAgentCustomerByAgentId (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-09 13:01:20.5684|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 13:01:20.7549|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.GetAgentCustomerByAgentId (uccApiCore2) in 10051.7106ms 
+2020-09-09 13:01:20.8077|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12278.5144ms 200 application/json; charset=utf-8 
+2020-09-09 13:01:38.9762|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAgentCustomer   
+2020-09-09 13:01:38.9923|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 13:01:39.0283|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52.1758ms 204  
+2020-09-09 13:01:39.0501|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAgentCustomer application/json 13 
+2020-09-09 13:01:39.0784|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 13:01:39.0784|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 13:01:39.1095|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 13:01:39.1852|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 13:01:39.2178|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.GetAgentCustomer (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-09 13:01:39.4053|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 13:01:39.4175|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.GetAgentCustomer (uccApiCore2) in 232.5687ms 
+2020-09-09 13:01:39.4264|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 376.2333ms 200 application/json; charset=utf-8 
+2020-09-09 13:01:44.7670|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/SaveAgentCustomer/   
+2020-09-09 13:01:44.7670|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 13:01:44.7670|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.9072ms 204  
+2020-09-09 13:01:44.7670|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/SaveAgentCustomer/ application/json 50 
+2020-09-09 13:01:44.7860|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 13:01:44.7860|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 13:01:44.7860|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 13:01:44.8018|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 13:01:44.8160|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.SaveAgentCustomer (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-09 13:01:44.9469|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 13:01:44.9469|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.SaveAgentCustomer (uccApiCore2) in 150.9389ms 
+2020-09-09 13:01:44.9612|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 180.4567ms 200 application/json; charset=utf-8 
+2020-09-09 13:01:54.4878|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAgentCustomerByAgentId   
+2020-09-09 13:01:54.4878|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 13:01:54.5865|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 98.7728ms 204  
+2020-09-09 13:01:54.6748|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAgentCustomerByAgentId application/json 13 
+2020-09-09 13:01:54.6748|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 13:01:54.6935|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 13:01:54.7133|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 13:01:54.7355|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 13:01:54.7397|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.GetAgentCustomerByAgentId (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-09 13:01:54.8621|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 13:01:54.8804|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.GetAgentCustomerByAgentId (uccApiCore2) in 144.97ms 
+2020-09-09 13:01:54.8804|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 213.5016ms 200 application/json; charset=utf-8 
+2020-09-09 17:57:49.8476||DEBUG|uccApiCore2.Program|init main 
+2020-09-09 17:57:51.4360||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\deepak raheja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-09-09 17:57:53.6675|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Agent/GetAgentInfo/   
+2020-09-09 17:57:54.0420|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 17:57:54.1782|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 553.221ms 204  
+2020-09-09 17:57:54.2078|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Agent/GetAgentInfo/ application/json 13 
+2020-09-09 17:57:54.7176|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 17:57:54.7304|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 17:57:54.7416|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 17:57:55.6163|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 17:57:56.5581|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.AgentController.GetAgentInfo (uccApiCore2) with arguments (uccApiCore2.Entities.Agents) - ModelState is Valid 
+2020-09-09 17:57:58.2150|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 17:57:58.3842|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.AgentController.GetAgentInfo (uccApiCore2) in 2858.6142ms 
+2020-09-09 17:57:58.4139|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4206.6315ms 200 application/json; charset=utf-8 
+2020-09-09 18:00:54.1837|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "09/09/2020 12:30:51 +00:00". 
+2020-09-09 18:06:58.7231|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "09/09/2020 12:36:57 +00:00". 
+2020-09-09 18:11:49.2225|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAllUsers/   
+2020-09-09 18:11:49.3144|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 18:11:49.3556|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 151.5318ms 204  
+2020-09-09 18:11:49.4298|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAllUsers/ application/json 2 
+2020-09-09 18:11:49.4951|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 18:11:49.5101|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 18:11:49.5277|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 18:11:50.0669|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 18:11:50.1012|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.GetAllUsers (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-09 18:11:51.3563|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 18:11:51.5054|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.GetAllUsers (uccApiCore2) in 1447.1147ms 
+2020-09-09 18:11:51.5054|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2080.5938ms 200 application/json; charset=utf-8 
+2020-09-09 18:13:14.9564|22|WARN|Microsoft.AspNetCore.Server.Kestrel|Heartbeat took longer than "00:00:01" at "09/09/2020 12:43:12 +00:00". 
+2020-09-09 18:16:15.4968|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAgentCustomerByAgentId   
+2020-09-09 18:16:15.5155|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 18:16:15.5189|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.3607ms 204  
+2020-09-09 18:16:15.5189|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAgentCustomerByAgentId application/json 13 
+2020-09-09 18:16:15.5384|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 18:16:15.5384|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 18:16:15.5384|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 18:16:16.7394|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 18:16:17.2045|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.GetAgentCustomerByAgentId (uccApiCore2) with arguments (uccApiCore2.Entities.Users) - ModelState is Valid 
+2020-09-09 18:16:17.5905|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 18:16:17.5905|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.GetAgentCustomerByAgentId (uccApiCore2) in 854.109ms 
+2020-09-09 18:16:17.5905|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2067.7463ms 200 application/json; charset=utf-8 
+2020-09-09 23:02:11.9484|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS http://localhost:5205/api/Users/GetAllUsers/   
+2020-09-09 23:02:11.9871|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 23:02:11.9871|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57.0267ms 204  
+2020-09-09 23:02:12.0035|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5205/api/Users/GetAllUsers/ application/json 2 
+2020-09-09 23:02:12.0326|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-09-09 23:02:12.0326|8|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2020-09-09 23:02:12.0326|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|Policy execution successful. 
+2020-09-09 23:02:12.2020|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2020-09-09 23:02:12.2191|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method uccApiCore2.Controllers.UsersController.GetAllUsers (uccApiCore2) with arguments ((null)) - ModelState is Valid 
+2020-09-09 23:02:12.8462|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2020-09-09 23:02:12.8462|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action uccApiCore2.Controllers.UsersController.GetAllUsers (uccApiCore2) in 661.5257ms 
+2020-09-09 23:02:12.8617|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 859.4684ms 200 application/json; charset=utf-8 
